@@ -18,7 +18,7 @@ jobs:
       uses: erlef/setup-beam@v1
       with:
         elixir-version: '1.12.3' # Define the elixir version [required]
-        otp-version: '24.1' # Define the OTP version [required]
+        otp-version: '24.3' # Define the OTP version [required]
     - name: Check formatting
       run: mix format --check-formatted
       
@@ -33,7 +33,7 @@ jobs:
       uses: erlef/setup-beam@v1
       with:
         elixir-version: '1.12.3' # Define the elixir version [required]
-        otp-version: '24.1' # Define the OTP version [required]
+        otp-version: '24.3' # Define the OTP version [required]
     - name: Restore dependencies cache
       uses: actions/cache@v2
       with:
